@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-28T08:13:15.888Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Fa3sMDMUoXuSLwkbIy44" version="22.1.12" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-28T08:22:43.498Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="gTr90EB8sXAdvdefLsDs" version="22.1.12" type="github">
   <diagram name="Page-1" id="YWQw5qrOwP-W0zatedrQ">
     <mxGraphModel dx="1912" dy="1251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -81,11 +81,11 @@
             <mxPoint x="545" y="552" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d7_KTHSuYhrXq9YDZ4VX-13" value="PP Pays" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="470" y="780" width="130" height="50" as="geometry" />
+        <mxCell id="d7_KTHSuYhrXq9YDZ4VX-13" value="Self-Pay Selected.&lt;br&gt;Insurance Disabled." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="470" y="750" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="d7_KTHSuYhrXq9YDZ4VX-14" value="Patient Pays" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="650" y="782" width="130" height="50" as="geometry" />
+        <mxCell id="d7_KTHSuYhrXq9YDZ4VX-14" value="Insurance Value Selected.&lt;br&gt;Self-Pay Disabled." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="750" width="130" height="82" as="geometry" />
         </mxCell>
         <mxCell id="d7_KTHSuYhrXq9YDZ4VX-15" value="Services Included in PP" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="155" y="582" width="160" height="120" as="geometry" />
@@ -123,11 +123,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d7_KTHSuYhrXq9YDZ4VX-22" value="PP Pays" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="290" y="782" width="130" height="50" as="geometry" />
+        <mxCell id="d7_KTHSuYhrXq9YDZ4VX-22" value="Both Self-Pay and Insurance Disabled&lt;br&gt;PP Pays" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="750" width="130" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="d7_KTHSuYhrXq9YDZ4VX-23" value="Patient Pays" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="50" y="782" width="130" height="50" as="geometry" />
+        <mxCell id="d7_KTHSuYhrXq9YDZ4VX-23" value="Both Self-Pay and Insurance Disabled&lt;br&gt;Patient Pays" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="750" width="130" height="82" as="geometry" />
         </mxCell>
         <mxCell id="d7_KTHSuYhrXq9YDZ4VX-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="d7_KTHSuYhrXq9YDZ4VX-15" target="d7_KTHSuYhrXq9YDZ4VX-22">
           <mxGeometry relative="1" as="geometry">
