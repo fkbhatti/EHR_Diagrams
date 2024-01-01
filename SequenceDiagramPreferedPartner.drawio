@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-01T09:51:09.637Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="N0qRzLa2IW63vPpGJvYw" version="22.1.15" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-01T09:53:05.359Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="zP3HC8onMiWI88AcpWF5" version="22.1.15" type="github">
   <diagram name="Page-1" id="r0tMF0hjpqj20LN4tqHR">
     <mxGraphModel dx="1434" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           <mxGeometry x="290" y="120" width="100" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="jaTOSob7eUF27mEvSC8X-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jaTOSob7eUF27mEvSC8X-4">
-          <mxGeometry x="45" y="80" width="10" height="250" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="930" as="geometry" />
         </mxCell>
         <mxCell id="jaTOSob7eUF27mEvSC8X-30" value="Basic/Plus" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" parent="jaTOSob7eUF27mEvSC8X-4" source="jaTOSob7eUF27mEvSC8X-10" target="jaTOSob7eUF27mEvSC8X-4">
           <mxGeometry relative="1" as="geometry">
@@ -52,19 +52,16 @@
         <mxCell id="jaTOSob7eUF27mEvSC8X-40" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jaTOSob7eUF27mEvSC8X-11">
           <mxGeometry x="42.5" y="750" width="10" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="jaTOSob7eUF27mEvSC8X-43" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jaTOSob7eUF27mEvSC8X-11">
-          <mxGeometry x="-90" y="750" width="10" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="jaTOSob7eUF27mEvSC8X-44" value="Paid" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="jaTOSob7eUF27mEvSC8X-11" source="jaTOSob7eUF27mEvSC8X-40" target="jaTOSob7eUF27mEvSC8X-43">
+        <mxCell id="jaTOSob7eUF27mEvSC8X-44" value="Paid" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="jaTOSob7eUF27mEvSC8X-11" source="jaTOSob7eUF27mEvSC8X-40">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-80" y="809.5" as="targetPoint" />
+            <mxPoint x="-80" y="820" as="targetPoint" />
             <mxPoint x="42.5" y="809.5" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="-15" y="820" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jaTOSob7eUF27mEvSC8X-42" value="Service Charges&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="jaTOSob7eUF27mEvSC8X-11" source="jaTOSob7eUF27mEvSC8X-43" target="jaTOSob7eUF27mEvSC8X-40">
+        <mxCell id="jaTOSob7eUF27mEvSC8X-42" value="Service Charges&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="jaTOSob7eUF27mEvSC8X-11" target="jaTOSob7eUF27mEvSC8X-40">
           <mxGeometry y="10" relative="1" as="geometry">
             <mxPoint x="-80" y="780" as="sourcePoint" />
             <mxPoint x="45" y="780" as="targetPoint" />
@@ -111,20 +108,17 @@
         <mxCell id="jaTOSob7eUF27mEvSC8X-33" value="If Basic/Plus Insurance" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=170;height=20;" vertex="1" parent="1">
           <mxGeometry x="250" y="490" width="410" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="jaTOSob7eUF27mEvSC8X-24" value="Service Charges&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" parent="1" source="jaTOSob7eUF27mEvSC8X-22" target="jaTOSob7eUF27mEvSC8X-25">
+        <mxCell id="jaTOSob7eUF27mEvSC8X-24" value="Service Charges&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" parent="1" target="jaTOSob7eUF27mEvSC8X-25">
           <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint x="350" y="590" as="sourcePoint" />
+            <mxPoint x="345" y="535" as="sourcePoint" />
             <mxPoint x="470" y="565" as="targetPoint" />
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jaTOSob7eUF27mEvSC8X-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="335" y="530" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="jaTOSob7eUF27mEvSC8X-34" value="Paid" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1" source="jaTOSob7eUF27mEvSC8X-27" target="jaTOSob7eUF27mEvSC8X-22">
+        <mxCell id="jaTOSob7eUF27mEvSC8X-34" value="Paid" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1" source="jaTOSob7eUF27mEvSC8X-27">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="355" y="420" as="targetPoint" />
+            <mxPoint x="345" y="605" as="targetPoint" />
             <mxPoint x="480" y="420" as="sourcePoint" />
             <Array as="points" />
           </mxGeometry>
@@ -132,20 +126,17 @@
         <mxCell id="jaTOSob7eUF27mEvSC8X-36" value="If Basic/Plus SelfPay" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=170;height=20;" vertex="1" parent="1">
           <mxGeometry x="250" y="670" width="410" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="jaTOSob7eUF27mEvSC8X-37" value="Service Charges&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" parent="1" source="jaTOSob7eUF27mEvSC8X-38" target="jaTOSob7eUF27mEvSC8X-35">
+        <mxCell id="jaTOSob7eUF27mEvSC8X-37" value="Service Charges&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" parent="1" target="jaTOSob7eUF27mEvSC8X-35">
           <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint x="350" y="770" as="sourcePoint" />
+            <mxPoint x="345" y="715" as="sourcePoint" />
             <mxPoint x="610" y="715" as="targetPoint" />
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jaTOSob7eUF27mEvSC8X-38" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="335" y="710" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="jaTOSob7eUF27mEvSC8X-39" value="Paid" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1" source="jaTOSob7eUF27mEvSC8X-35" target="jaTOSob7eUF27mEvSC8X-38">
+        <mxCell id="jaTOSob7eUF27mEvSC8X-39" value="Paid" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1" source="jaTOSob7eUF27mEvSC8X-35">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="355" y="600" as="targetPoint" />
+            <mxPoint x="345" y="785" as="targetPoint" />
             <mxPoint x="480" y="600" as="sourcePoint" />
             <Array as="points" />
           </mxGeometry>
@@ -153,10 +144,10 @@
         <mxCell id="jaTOSob7eUF27mEvSC8X-41" value="If Basic/Plus Custom" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=170;height=20;" vertex="1" parent="1">
           <mxGeometry x="133" y="830" width="585" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="jaTOSob7eUF27mEvSC8X-45" value="Payer Selection" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="jaTOSob7eUF27mEvSC8X-5" target="jaTOSob7eUF27mEvSC8X-43">
+        <mxCell id="jaTOSob7eUF27mEvSC8X-45" value="Payer Selection" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="jaTOSob7eUF27mEvSC8X-5">
           <mxGeometry y="10" relative="1" as="geometry">
             <mxPoint x="167" y="890" as="sourcePoint" />
-            <mxPoint x="290" y="890" as="targetPoint" />
+            <mxPoint x="335" y="875" as="targetPoint" />
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
@@ -170,7 +161,7 @@
         <mxCell id="jaTOSob7eUF27mEvSC8X-48" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="605" y="970" width="10" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="jaTOSob7eUF27mEvSC8X-49" value="Service Charges&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="jaTOSob7eUF27mEvSC8X-43" target="jaTOSob7eUF27mEvSC8X-48">
+        <mxCell id="jaTOSob7eUF27mEvSC8X-49" value="Service Charges&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="jaTOSob7eUF27mEvSC8X-48">
           <mxGeometry y="10" relative="1" as="geometry">
             <mxPoint x="345" y="1000" as="sourcePoint" />
             <mxPoint x="605" y="1000" as="targetPoint" />
@@ -180,19 +171,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jaTOSob7eUF27mEvSC8X-50" value="Paid" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="jaTOSob7eUF27mEvSC8X-48" target="jaTOSob7eUF27mEvSC8X-43">
+        <mxCell id="jaTOSob7eUF27mEvSC8X-50" value="Paid" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="jaTOSob7eUF27mEvSC8X-48">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="1030" as="targetPoint" />
+            <mxPoint x="345" y="1030" as="targetPoint" />
             <mxPoint x="533" y="1030" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="475" y="1030" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jaTOSob7eUF27mEvSC8X-51" value="Recipt" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1" source="jaTOSob7eUF27mEvSC8X-43" target="jaTOSob7eUF27mEvSC8X-5">
+        <mxCell id="jaTOSob7eUF27mEvSC8X-51" value="Recipt" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1" target="jaTOSob7eUF27mEvSC8X-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="100" y="1120" as="targetPoint" />
-            <mxPoint x="360" y="1120" as="sourcePoint" />
+            <mxPoint x="335" y="1125" as="sourcePoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
