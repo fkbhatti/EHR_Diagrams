@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-01T10:27:58.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="suNyIaUt2d8u8dmInvUY" version="22.1.15" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-01T10:51:33.163Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="j1QdfLx52231Lj8xnmF7" version="22.1.15" type="github">
   <diagram name="Page-1" id="r0tMF0hjpqj20LN4tqHR">
     <mxGraphModel dx="1247" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="5" y="80" width="10" height="930" as="geometry" />
         </mxCell>
         <mxCell id="jaTOSob7eUF27mEvSC8X-2" value="Patient" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="60" y="30" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jaTOSob7eUF27mEvSC8X-3" value="PsycPlus Staff" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="207" y="120" width="100" height="1040" as="geometry" />
