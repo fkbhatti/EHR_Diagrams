@@ -1,0 +1,213 @@
+<mxfile host="app.diagrams.net" modified="2024-01-18T11:52:36.534Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Bc11_qA_mR4dZ7oTMIa5" version="22.1.21" type="github">
+  <diagram name="Page-1" id="liGm0qTGzvVkfE7tecpt">
+    <mxGraphModel dx="6586" dy="3752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-1" target="I_fL-Ra0B_md9scAyMLs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-2" target="I_fL-Ra0B_md9scAyMLs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-2" value="Read Request Body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-4" target="I_fL-Ra0B_md9scAyMLs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-4" value="Create StripEvent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-6" target="I_fL-Ra0B_md9scAyMLs-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-6" value="Deserialize Request Body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-8" value="return Ok" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="2550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-9" target="I_fL-Ra0B_md9scAyMLs-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-12" value="Null or empty" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I_fL-Ra0B_md9scAyMLs-11">
+          <mxGeometry x="0.0585" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-9" target="I_fL-Ra0B_md9scAyMLs-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-15" value="Contains a value" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I_fL-Ra0B_md9scAyMLs-14">
+          <mxGeometry x="0.0377" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-9" value="deserializedBody.data.subscription" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="590" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-13" target="I_fL-Ra0B_md9scAyMLs-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-13" value="Assign subcription, customerKey from deserializedBody.data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="820" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-16" target="I_fL-Ra0B_md9scAyMLs-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-16" value="patient = this.PatientBll.Value.GetPatientByCustomerKey(customerKey).Body;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="930" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-19" target="I_fL-Ra0B_md9scAyMLs-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-19" value="StripEvent.Type" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1050" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-21" target="I_fL-Ra0B_md9scAyMLs-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="2055" />
+              <mxPoint x="650" y="2580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-50" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I_fL-Ra0B_md9scAyMLs-49">
+          <mxGeometry x="-0.8266" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-21" target="I_fL-Ra0B_md9scAyMLs-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-21" value="Events.InvoicePaid" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1980" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-22" target="I_fL-Ra0B_md9scAyMLs-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-26" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I_fL-Ra0B_md9scAyMLs-25">
+          <mxGeometry x="-0.48" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-22" target="I_fL-Ra0B_md9scAyMLs-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-29" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I_fL-Ra0B_md9scAyMLs-28">
+          <mxGeometry x="0.0235" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-22" value="Events.InvoicePaid" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1160" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-27" target="I_fL-Ra0B_md9scAyMLs-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-27" value="amount = deserializedBody.data.subscription.amount" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="711" y="1205" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-30" target="I_fL-Ra0B_md9scAyMLs-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-30" value="cards =&amp;nbsp; this.PatientBll.Value.GetListOfPatientCards(patient.pid)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="691" y="1330" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.567;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-32" target="I_fL-Ra0B_md9scAyMLs-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1201" y="1490" />
+              <mxPoint x="1201" y="1491" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-32" value="create new Patient transaction and assign values" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="711" y="1460" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-34" target="I_fL-Ra0B_md9scAyMLs-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-34" value="PatientBll.Value.SavePatientSubscriptionChargeByWebHookAsync(transaction)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="626" y="1570" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-36" target="I_fL-Ra0B_md9scAyMLs-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-36" value="create new Patient Payment and assign values" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="711" y="1790" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-37" target="I_fL-Ra0B_md9scAyMLs-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-37" value="this.PatientBll.Value.SavePatientTransaction(payment)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="701" y="2115" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-40" target="I_fL-Ra0B_md9scAyMLs-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1410" y="1600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-40" value="&lt;h1&gt;transaction assignments&lt;/h1&gt;&lt;p&gt;transaction.pid = patient.pid;&lt;/p&gt;&lt;p&gt;transaction.type = &quot;Plus&quot;;&lt;/p&gt;&lt;p&gt;transaction.is_CustomCharge = false;&lt;/p&gt;&lt;p&gt;transaction.chargeDate = DatetimeHelper.GetCSTDatetime();&lt;/p&gt;&lt;p&gt;transaction.chargeTime = DatetimeHelper.GetCSTDatetime().ToString(&quot;HH:mm&quot;);&lt;/p&gt;&lt;p&gt;transaction.description =&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; deserializedStripeResult.data?.description;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;transaction.coPayDue = 0;&lt;/p&gt;&lt;p&gt;transaction.coPayPaid = 0;&lt;/p&gt;&lt;p&gt;transaction.CoInsDue = 0;&lt;/p&gt;&lt;p&gt;transaction.CoInsPaid = 0;&lt;/p&gt;&lt;p&gt;transaction.BalanceDue = Convert.ToDecimal(amount);&lt;/p&gt;&lt;p&gt;transaction.BalancePaid = Convert.ToDecimal(amount);&lt;/p&gt;&lt;p&gt;transaction.showBalanceStatus = true;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="1270" width="680" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-43" target="I_fL-Ra0B_md9scAyMLs-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-43" value="&lt;h1&gt;Payment assignments&lt;/h1&gt;&lt;p&gt;pid = patient.pid,&lt;/p&gt;&lt;p&gt;card_id = cards&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .Where(&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; x =&amp;gt; x.isPrimary == true &amp;amp;&amp;amp; x.is_active == true &amp;amp;&amp;amp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;x.is_deleted == false)&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .Select(x =&amp;gt; x.id)&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .FirstOrDefault(),&lt;/p&gt;&lt;p&gt;card_Key =&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; cards.Where(&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;x =&amp;gt; x.isPrimary == true &amp;amp;&amp;amp; x.is_active == true &amp;amp;&amp;amp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; x.is_deleted == false)&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.Select(x =&amp;gt; x.cardKey)&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.FirstOrDefault(),&lt;/p&gt;&lt;p&gt;transaction_Key = subscription,&lt;/p&gt;&lt;p&gt;paymentType = &quot;Plus&quot;,&lt;/p&gt;&lt;p&gt;amount = Convert.ToDecimal(amount),&lt;/p&gt;&lt;p&gt;paymentDateTime = DatetimeHelper.GetCSTDatetime(),&lt;/p&gt;&lt;p&gt;createdBy = patient.pid,&lt;/p&gt;&lt;p&gt;paymentMethod = &quot;Credit Card&quot;,&lt;/p&gt;&lt;p&gt;paymentDescription = &quot;xxxx xxxx xxxx &quot; +&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;cards.Where(&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; x =&amp;gt; x.isPrimary == true &amp;amp;&amp;amp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; x.is_active == true &amp;amp;&amp;amp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; x.is_deleted == false)&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .Select(x =&amp;gt; x.cardNumber)&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .FirstOrDefault(),&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="1770" width="680" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.064;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-36" target="I_fL-Ra0B_md9scAyMLs-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-51" target="I_fL-Ra0B_md9scAyMLs-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-51" value="result = this.Stripe.cancelPatientSubscription(subscription)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2200" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-53" target="I_fL-Ra0B_md9scAyMLs-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="2385" />
+              <mxPoint x="650" y="2580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-56" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I_fL-Ra0B_md9scAyMLs-55">
+          <mxGeometry x="-0.7895" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-53" target="I_fL-Ra0B_md9scAyMLs-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-59" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I_fL-Ra0B_md9scAyMLs-58">
+          <mxGeometry x="-0.0954" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-53" value="result.Code == ResponseCode.OK" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="2310" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-57" target="I_fL-Ra0B_md9scAyMLs-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="2580" />
+              <mxPoint x="910" y="2580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-57" value="this.PatientBll.Value.updatePatientStatusFromWebHook(patient.pid, &quot;Active&quot;);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="2550" width="420" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
