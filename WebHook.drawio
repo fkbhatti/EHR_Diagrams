@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T12:55:48.424Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="GRHvHspc4TxIz3dy0PGk" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T13:05:36.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="rDIrL0OOwlgaVuTDQIq2" version="22.1.21" type="github">
   <diagram name="Page-1" id="liGm0qTGzvVkfE7tecpt">
-    <mxGraphModel dx="3730" dy="1074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4435" dy="2350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,11 +15,10 @@
         <mxCell id="I_fL-Ra0B_md9scAyMLs-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="40" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="I_fL-Ra0B_md9scAyMLs-8" value="End" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="2550" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="I_fL-Ra0B_md9scAyMLs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="I_fL-Ra0B_md9scAyMLs-9" target="I_fL-Ra0B_md9scAyMLs-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="I_fL-Ra0B_md9scAyMLs-9" target="XaYuISWPO-mi80r5nCsN-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="2550" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Nmdro9crsDbQd0yXc826-1" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="I_fL-Ra0B_md9scAyMLs-11" vertex="1" connectable="0">
           <mxGeometry x="-0.4318" y="-1" relative="1" as="geometry">
@@ -43,46 +42,33 @@
         <mxCell id="I_fL-Ra0B_md9scAyMLs-13" value="Get Subscription and Customer Key" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="540" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I_fL-Ra0B_md9scAyMLs-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="I_fL-Ra0B_md9scAyMLs-16" target="I_fL-Ra0B_md9scAyMLs-19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="I_fL-Ra0B_md9scAyMLs-16" target="XaYuISWPO-mi80r5nCsN-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="880" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="I_fL-Ra0B_md9scAyMLs-16" value="Get Patient" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="700" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lpKcl0R5TaO6TGm4_JN--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-19" target="I_fL-Ra0B_md9scAyMLs-27">
+        <mxCell id="lpKcl0R5TaO6TGm4_JN--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XaYuISWPO-mi80r5nCsN-1" target="I_fL-Ra0B_md9scAyMLs-27" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="610" y="910" as="targetPoint" />
+            <mxPoint x="310" y="910" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lpKcl0R5TaO6TGm4_JN--2" value="IInvoice Paid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lpKcl0R5TaO6TGm4_JN--1">
+        <mxCell id="lpKcl0R5TaO6TGm4_JN--2" value="IInvoice Paid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lpKcl0R5TaO6TGm4_JN--1" vertex="1" connectable="0">
           <mxGeometry x="-0.0247" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lpKcl0R5TaO6TGm4_JN--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I_fL-Ra0B_md9scAyMLs-19" target="I_fL-Ra0B_md9scAyMLs-53">
+        <mxCell id="lpKcl0R5TaO6TGm4_JN--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XaYuISWPO-mi80r5nCsN-1" target="I_fL-Ra0B_md9scAyMLs-53" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-240" y="1020" as="targetPoint" />
+            <mxPoint x="30" y="910" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lpKcl0R5TaO6TGm4_JN--4" value="Payment Failed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lpKcl0R5TaO6TGm4_JN--3">
+        <mxCell id="lpKcl0R5TaO6TGm4_JN--4" value="Payment Failed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lpKcl0R5TaO6TGm4_JN--3" vertex="1" connectable="0">
           <mxGeometry x="-0.0313" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="I_fL-Ra0B_md9scAyMLs-19" value="Check Event Type" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="30" y="880" width="280" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="I_fL-Ra0B_md9scAyMLs-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="I_fL-Ra0B_md9scAyMLs-8" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="650" y="2055" />
-              <mxPoint x="650" y="2580" />
-            </Array>
-            <mxPoint x="270" y="2055" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="I_fL-Ra0B_md9scAyMLs-50" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="I_fL-Ra0B_md9scAyMLs-49" vertex="1" connectable="0">
-          <mxGeometry x="-0.8266" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -92,67 +78,60 @@
         <mxCell id="I_fL-Ra0B_md9scAyMLs-27" value="Get Amount Paid" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="1040" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I_fL-Ra0B_md9scAyMLs-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="I_fL-Ra0B_md9scAyMLs-30" target="I_fL-Ra0B_md9scAyMLs-32" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.486;entryY=-0.053;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="I_fL-Ra0B_md9scAyMLs-30" target="I_fL-Ra0B_md9scAyMLs-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="1310" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="I_fL-Ra0B_md9scAyMLs-30" value="Get Patients Cards" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="1190" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I_fL-Ra0B_md9scAyMLs-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.567;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="I_fL-Ra0B_md9scAyMLs-32" target="I_fL-Ra0B_md9scAyMLs-40" edge="1">
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="I_fL-Ra0B_md9scAyMLs-34" target="I_fL-Ra0B_md9scAyMLs-37" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1201" y="1490" />
-              <mxPoint x="1201" y="1491" />
-            </Array>
+            <mxPoint x="530" y="1790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I_fL-Ra0B_md9scAyMLs-32" value="Create new Patient Transaction to save in our database" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="1310" width="280" height="60" as="geometry" />
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-34" value="Save Strip Transaction details to our Transaction Database Table" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="1400" width="330" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I_fL-Ra0B_md9scAyMLs-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="I_fL-Ra0B_md9scAyMLs-34" target="I_fL-Ra0B_md9scAyMLs-36" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="I_fL-Ra0B_md9scAyMLs-37" target="XaYuISWPO-mi80r5nCsN-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="2580" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="I_fL-Ra0B_md9scAyMLs-34" value="Save the transaction to our database" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="1540" width="450" height="60" as="geometry" />
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-37" value="Save Stripe Transaction to our Payment database table" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="385" y="1730" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I_fL-Ra0B_md9scAyMLs-36" value="Create new Patient Payment to Save in our database" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="711" y="1790" width="280" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="I_fL-Ra0B_md9scAyMLs-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="I_fL-Ra0B_md9scAyMLs-37" target="I_fL-Ra0B_md9scAyMLs-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="I_fL-Ra0B_md9scAyMLs-37" value="Save Patient Payment" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="701" y="2115" width="300" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="I_fL-Ra0B_md9scAyMLs-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="I_fL-Ra0B_md9scAyMLs-40" target="I_fL-Ra0B_md9scAyMLs-34" edge="1">
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="I_fL-Ra0B_md9scAyMLs-40" target="I_fL-Ra0B_md9scAyMLs-34" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1410" y="1600" />
+              <mxPoint x="870" y="1430" />
+              <mxPoint x="870" y="1430" />
             </Array>
+            <mxPoint x="1280" y="1470" as="sourcePoint" />
+            <mxPoint x="600" y="1525" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I_fL-Ra0B_md9scAyMLs-40" value="&lt;h1&gt;Transaction Value to be Saved&lt;/h1&gt;&lt;p&gt;Assign Patient ID for transaction from patient data&lt;/p&gt;&lt;p&gt;Transaction Type = plus&lt;/p&gt;&lt;p&gt;transaction is not CustomCharge&lt;/p&gt;&lt;p&gt;transaction chargeDate = Current data in CST&lt;/p&gt;&lt;p&gt;transaction chargeTime = Current time in CST&lt;/p&gt;&lt;p&gt;add transaction description&lt;/p&gt;&lt;p&gt;coPayDue = 0&lt;/p&gt;&lt;p&gt;coPayPaid = 0&lt;/p&gt;&lt;p&gt;CoInsDue = 0&lt;/p&gt;&lt;p&gt;CoInsPaid = 0&lt;/p&gt;&lt;p&gt;BalanceDue = amount&lt;/p&gt;&lt;p&gt;BalancePaid = amount&lt;/p&gt;&lt;p&gt;show balance status&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1410" y="1270" width="680" height="390" as="geometry" />
+          <mxGeometry x="910" y="1235" width="370" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="I_fL-Ra0B_md9scAyMLs-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="I_fL-Ra0B_md9scAyMLs-43" target="I_fL-Ra0B_md9scAyMLs-37" edge="1">
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="I_fL-Ra0B_md9scAyMLs-43" target="I_fL-Ra0B_md9scAyMLs-37" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1400" y="2145" />
+              <mxPoint x="910" y="1760" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="I_fL-Ra0B_md9scAyMLs-43" value="&lt;h1&gt;Payment Values to be Saved&lt;/h1&gt;&lt;p&gt;Assign Patient ID for transaction from patient data&lt;br&gt;&lt;/p&gt;&lt;p&gt;Save primary card&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Save the Card Number&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Save Subscription&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Save the payment type Plus&lt;/p&gt;&lt;p&gt;Save the payment amount&lt;/p&gt;&lt;p&gt;Save Payment date&lt;/p&gt;&lt;p&gt;Save created by Patient&lt;/p&gt;&lt;p&gt;Save credit card as payment method&lt;/p&gt;&lt;p&gt;Save Card Number in payment description&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="1800" width="680" height="330" as="geometry" />
+          <mxGeometry x="910" y="1680" width="370" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="I_fL-Ra0B_md9scAyMLs-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.064;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="I_fL-Ra0B_md9scAyMLs-36" target="I_fL-Ra0B_md9scAyMLs-43" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="I_fL-Ra0B_md9scAyMLs-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="I_fL-Ra0B_md9scAyMLs-53" target="I_fL-Ra0B_md9scAyMLs-8" edge="1">
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="I_fL-Ra0B_md9scAyMLs-53" target="XaYuISWPO-mi80r5nCsN-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="650" y="2385" />
-              <mxPoint x="650" y="2580" />
+              <mxPoint x="130" y="1095" />
+              <mxPoint x="130" y="2060" />
             </Array>
+            <mxPoint x="1170" y="2540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I_fL-Ra0B_md9scAyMLs-56" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="I_fL-Ra0B_md9scAyMLs-55" vertex="1" connectable="0">
@@ -171,12 +150,12 @@
         <mxCell id="I_fL-Ra0B_md9scAyMLs-53" value="Cancel Patient Subscription" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-340" y="1020" width="200" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="I_fL-Ra0B_md9scAyMLs-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="I_fL-Ra0B_md9scAyMLs-57" target="I_fL-Ra0B_md9scAyMLs-8" edge="1">
+        <mxCell id="I_fL-Ra0B_md9scAyMLs-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="I_fL-Ra0B_md9scAyMLs-57" target="XaYuISWPO-mi80r5nCsN-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="910" y="2580" />
-              <mxPoint x="910" y="2580" />
+              <mxPoint x="-240" y="2060" />
             </Array>
+            <mxPoint x="1170" y="2580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I_fL-Ra0B_md9scAyMLs-57" value="Update Patient Status to Active user" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -190,6 +169,12 @@
         </mxCell>
         <mxCell id="Nmdro9crsDbQd0yXc826-3" value="Deserialize Request Data" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="200" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XaYuISWPO-mi80r5nCsN-1" value="Check Event Type" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="830" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="XaYuISWPO-mi80r5nCsN-3" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="2020" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
